@@ -13,7 +13,7 @@
 </head>
 <body>
 	<!-- Navbar Section Start -->
-	<nav class="navbar navbar-dark navbar-expand-lg"  uk-sticky="top:100; animation: uk-animation-slide-top; bottom: #sticky-on-scroll-up">
+	    <nav class="navbar navbar-dark navbar-expand-lg" uk-sticky="top:100; animation: uk-animation-slide-top; bottom: #sticky-on-scroll-up">
 		<div class="container">
 			<a href="index.html" class="navbar-brand">
 				<img src="img/logo.png" class="img-fluid p-0" style="width: 12%; ">
@@ -28,9 +28,13 @@
 					<li class="nav-item">
 						<a class="nav-link " href="index.html">Home</a>
 					</li>
-					<li class="nav-item active">
-						<a class="nav-link" href="about.html">About</a>
-					</li>
+					<li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
+                    <div class="dropdown-menu" aria-labelledby="aboutDropdown">
+                        <a class="dropdown-item" href="about.html">About Us</a>
+                        <a class="dropdown-item" href="team.html">Our Team</a>
+                    </div>
+                </li>
 					<li class="nav-item">
 						<a class="nav-link" href="services.html">Products</a>
 					</li>
@@ -51,7 +55,7 @@
 
 	
 	<!-- About Section Start -->
-	<section id="about"   class="text-center py-5 text-light">
+	    <section id="about" class="text-center py-5 text-light">
 		<div class="inner-overlay">
 			<div class="container">
 				<div class="row">
@@ -71,7 +75,7 @@
 	<section id="about-info" class="py-5 my-5">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-6 col-md-6  align-self-center">
+                <div class="col-lg-6 col-md-6">
 					<h1>What We Do</h1>
 					<p class="lead">
 Prayash Heavy Engineering Pvt. Ltd. is a newly incorporated company, established in May 2022. Despite being a relatively new player in the industry, it has already earned the trust and credibility of its customers through its commitment to delivering quality work and timely services. At Prayash, the company's primary objective is to provide the best quality of work efficiently to its customers, aiming to establish long-term business relationships with them and other stakeholders.
@@ -92,13 +96,13 @@ The name "Prayash" is derived from the word "trying," which indicates the compan
 		<!-- Services FAQ Section Start -->
 	<section id="services-faq" class="py-5 bg-dark">
 		<div class="container">
-			<div class="row mb-3">
-				<div class="col">
+			<div class="row">
+                <div class="col-lg-4 col-sm-4">
 					<h2 class="text-light text-center">Our Promise</h2>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-lg-4 col-sm-4">
+					<div class="col-lg-4 col-sm-4">
 					<div id="accordion2" role="tablist">
 						<div class="card">
 							<div class="card-header" role="tab">
@@ -173,8 +177,7 @@ Our unwavering commitment to on-time delivery ensures that your projects are com
 
 
 	<!-- About Services Section Start -->
-	<section id="about-services" class="py-5 text-light
-	text-center bg-dark">
+	<section id="about-services" class="py-5 text-light text-center bg-dark">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-4 col-md-4">

@@ -18,6 +18,9 @@ body{
 .carousel-item{
 	height: 700px;
 }
+#clients .carousel-item{
+	height: 45%;
+}
 .crs-img-1{
 	background: url('../img/slides/1.jpg');
 	background-size: cover;
