@@ -18,6 +18,9 @@ body{
 .carousel-item{
 	height: 700px;
 }
+#clients .carousel-item{
+	height: 30%;
+}
 .crs-img-1{
 	background: url('../img/slides/1.jpg');
 	background-size: cover;
@@ -171,6 +174,9 @@ body{
 	position: relative;
 }
 
+#info-team .container{
+	width: 12000px   !important;
+}
 
 @media (max-width: 991px){
 	#info .infoS{
