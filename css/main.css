@@ -262,3 +262,9 @@ body{
 }
 
 
+#about-services img {
+    max-width: 100px; /* Adjust the maximum width as needed */
+    height: auto;
+    margin-bottom: 10px; /* Space between image and text */
+}
+
