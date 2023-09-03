@@ -268,3 +268,45 @@ body{
 }
 
 
+#about-services img {
+    max-width: 100px; /* Adjust the maximum width as needed */
+    height: auto;
+    margin-bottom: 10px; /* Space between image and text */
+}
+
+
+/* Sectors we assist starts */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.boxs {
+    width: 100px;
+    height: 150px;
+    background-color:rgb(255, 255, 255); /* Change this color to your desired background color */
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+	vertical-align: top;
+}
+
+
+.symbol {
+    font-size: 36px;
+    line-height: 1;
+}
+
+
+.text {
+    font-size: 12px; 
+    margin-top: 5px;
+    font-weight: bold;
+}
