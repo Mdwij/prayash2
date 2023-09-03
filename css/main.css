@@ -282,7 +282,7 @@ body {
     padding: 0;
 }
 
-.container {
+.symbol-container {
     text-align: center;
 }
 
@@ -299,7 +299,7 @@ body {
 }
 
 
-.symbol {
+.symbol1 {
     font-size: 36px;
     line-height: 1;
 }
