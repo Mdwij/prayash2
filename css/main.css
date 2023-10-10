@@ -251,9 +251,9 @@ body{
 		height: 600px;
 	}
 }
-@media(max-width: 420px){
+@media(max-width: 480px){
 	.navbar .navbar-brand {
-		width: 75%;
+		width: 150%;
 	}
 	#myCarousel .display-4    {
 		font-size: 45px !important;
@@ -321,4 +321,69 @@ body {
     font-size: 12px; 
     margin-top: 5px;
     font-weight: bold;
+}
+@media (max-width: 991px) {
+    /* Adjust font sizes and spacing for tablet screens */
+    #info .infoS {
+        margin-top: 0;
+    }
+    #gallery img {
+        height: auto;
+        max-height: 120px;
+    }
+}
+
+@media (max-width: 767px) {
+    /* Adjust font sizes and spacing for mobile screens */
+    #info p {
+        font-size: 14px;
+        margin-top: 0;
+    }
+    #info h3 {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+    /* Add other responsive adjustments as needed */
+}
+
+@media (max-width: 575px) {
+    /* Further adjustments for smaller mobile screens */
+    #gallery img {
+        width: 80%;
+        height: auto;
+        max-height: 150px;
+    }
+    /* Add other responsive adjustments as needed */
+}
+
+@media (max-width: 480px) {
+    /* Adjustments for very small screens */
+    #showcase .col-lg-4.col-md-4 {
+        width: 80%;
+        margin: 0 auto;
+    }
+    /* Add other responsive adjustments as needed */
+}
+
+
+
+.symbol-container {
+    text-align: center;
+    margin: 10px 0; /* Add vertical spacing between symbol containers */
+}
+
+.boxs {
+    width: 80px; /* Adjust the width as needed */
+    height: 120px; /* Adjust the height as needed */
+}
+
+.symbol1 img {
+    max-width: 40%;
+    max-height: 50px; /* Adjust the maximum height as needed */
+}
+
+#dir-mess img {
+	float: left;
+
+
 }

@@ -382,3 +382,27 @@
 		</div>
 	</section>
 	<!--Services Table Section End-->
+
+
+	<section id="info-team" class="py-5 my-5">
+		<div class="container">
+			<div class="row">
+				<div class="justify-content-center infoS">
+					<h3 class="uk-text-bold">Our Director's Message</h3>
+					<div class="img-fluid align-self-center">
+					<img src="img/ramesh.png" class="img-fluid w-120 h-80 rounded-circle" style="float: right">
+				</div>
+					<p class="lead">
+I am honored to greet you as the Director of our esteemed company and share a glimpse of my journey and the guiding principles of our organization.
+With over 33 years in the heavy engineering industry, I've traversed various roles, from Trainee Engineer to Plant Head. This journey has endowed me with a profound technical background and extensive expertise in Manufacturing, Operations, and Project Management.
+At the heart of my career lies an unwavering commitment to excellence. We strive for nothing less than the best-in-class quality in our products and services, upholding the highest industry standards.
+Our enduring client relationships bear testament to our core values. I focus on delivering tailored solutions to meet the unique needs of our clients, both domestically and internationally, fostering trust and growth.
+I excel in handling diverse materials such as CS, SS, Duplex, Super Duplex, Low Alloy Steel, Titanium, Cr-Mo, and Vanadium Alloy, with a thickness capacity of up to 300mm, ensuring precise and efficient project execution.
+Our dedication to surpassing customer expectations remains steadfast. We uphold the highest standards of quality and professionalism, aiming to set new industry benchmarks.
+I am grateful for your trust and support, and as we move forward, we will continue to prioritize excellence, innovation, and meeting your unique requirements.
+Thank you for being an integral part of our journey. I eagerly anticipate a future filled with mutual success and growth.</p>
+				</div>
+			</div>
+
+		</div>
+		</section>
