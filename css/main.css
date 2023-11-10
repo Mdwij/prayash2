@@ -34,7 +34,19 @@ body{
 	width:100%;
 }
 
+.crs-img-3{
+	background: url('../img/slides/3.jpg');
+	background-size: cover;
+	background-position: center;
+	width:100%;
+}
 
+.crs-img-4{
+	background: url('../img/slides/4.jpg');
+	background-size: cover;
+	background-position: center;
+	width:100%;
+}
 /*Showcase*/
 #showcase .fas{
 	font-size:35px;
